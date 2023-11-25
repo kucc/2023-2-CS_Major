@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>고려대학교 정보대학 공간예약</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jquery -->
+    <script type="text/javascript" src="./vendor/jquery/jquery-3.3.1.min.js"></script>
+
+    <!-- semantic ui -->
+    <script type="text/javascript" src="./vendor/semantic-ui/semantic.min.js"></script>
+    <link rel="stylesheet" href="./vendor/semantic-ui/semantic.min.css" />
+
+    <!-- main -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="content ui text container page approval">
+            <header>
+                <h1>고려대학교 정보대학 대관 확인증</h1>
+            </header>
+            <div class="t_view">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>강의실</th>
+                            <td data-label="강의실">우정정보관 208호</td>
+                        </tr>
+                        <tr>
+                            <th>대관일자</th>
+                            <td data-label="대관일자">2023-10-10</td>
+                        </tr>
+                        <tr>
+                            <th>대관시간</th>
+                            <td data-label="대관시간">8,9</td>
+                        </tr>
+                        <tr>
+                            <th>대관목적</th>
+                            <td data-label="대관목적">세션 진행</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>예약자 이름</th>
+                            <td data-label="예약자 이름">오종민</td>
+                        </tr>
+                        <tr>
+                            <th>연락처</th>
+                            <td data-label="연락처">010-8668-1532</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="desc">
+                위 상기된 일시에 고려대학교 정보대학 강의실 대관을 확인합니다.
+            </div>
+            <div class="desc">
+                "확인증을 대관한 장소 안내선생님께 제출해야 대관이 완료됩니다."
+            </div>
+            <div class="desc">
+                ※ 안내선생님 위치 : 우정정보관 1층, 과학도서관 1층
+            </div>
+            <footer>
+                <button onclick="window.print();" class="ui button large crimson">대관 확인증 출력하기</button>
+            </footer>
+        </div>
+
+    </div>
+</body>
+
+</html>
